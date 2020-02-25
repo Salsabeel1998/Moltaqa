@@ -1,0 +1,123 @@
+.m-aside-left.m-aside-left--skin-dark {
+  background-color: #ffffff !important;
+
+}
+.m-stack.m-stack--desktop.m-stack--ver>.m-stack__item.m-stack__item--fluid {
+  background: linear-gradient(45deg, #5c768d 0%, rgba(39, 70, 133, 0.9) 35%,rgba(61, 179, 197, 0.8) 100%) !important
+}
+.m-brand.m-brand--skin-dark {
+  background:rgba(61, 179, 197, 0.8) !important
+}
+.m-brand.m-brand--skin-dark .m-brand__tools .m-brand__toggler span {
+  background-color: #ffffff !important;
+}
+.m-brand.m-brand--skin-dark .m-brand__tools .m-brand__toggler span::before, .m-brand.m-brand--skin-dark .m-brand__tools .m-brand__toggler span::after {
+  background-color: #ffffff !important;
+}
+.m-brand.m-brand--skin-dark .m-brand__tools .m-brand__toggler span::before, .m-brand.m-brand--skin-dark .m-brand__tools .m-brand__toggler span::after {
+  background-color: #ffffff !important;
+}
+.m-brand.m-brand--skin-dark .m-brand__tools .m-brand__toggler.m-brand__toggler--active span {
+    background: #ffffff;
+}
+.m-brand.m-brand--skin-dark .m-brand__tools .m-brand__toggler.m-brand__toggler--active span::before, .m-brand.m-brand--skin-dark .m-brand__tools .m-brand__toggler.m-brand__toggler--active span::after {
+  background: #ffffff;
+}
+.m-brand.m-brand--skin-dark .m-brand__tools .m-brand__toggler.m-brand__toggler--active span::before, .m-brand.m-brand--skin-dark .m-brand__tools .m-brand__toggler.m-brand__toggler--active span::after {
+  background: #ffffff;
+}
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item:not(.m-menu__item--parent):not(.m-menu__item--open):not(.m-menu__item--expanded):not(.m-menu__item--active):hover {
+  background-color: rgba(61, 179, 197, 0.8) !important;
+  transition: background-color 0.3s ease 0s;
+}
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item:not(.m-menu__item--parent):not(.m-menu__item--open):not(.m-menu__item--expanded):not(.m-menu__item--active):hover>.m-menu__heading .m-menu__link-text, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item:not(.m-menu__item--parent):not(.m-menu__item--open):not(.m-menu__item--expanded):not(.m-menu__item--active):hover>.m-menu__link .m-menu__link-text {
+  color: #ffffff;
+  font-weight: 500;
+}
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item:not(.m-menu__item--parent):not(.m-menu__item--open):not(.m-menu__item--expanded):not(.m-menu__item--active):hover > .m-menu__heading .m-menu__link-icon, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item:not(.m-menu__item--parent):not(.m-menu__item--open):not(.m-menu__item--expanded):not(.m-menu__item--active):hover > .m-menu__link .m-menu__link-icon {
+  color: #ffffff;
+  font-weight: 500;
+}
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item.m-menu__item--active>.m-menu__heading .m-menu__link-text, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item.m-menu__item--active>.m-menu__link .m-menu__link-text {
+  color: #64c2d1;
+  font-family: Tajawal;
+  font-weight: 500;
+}
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item:not(.m-menu__item--parent):not(.m-menu__item--open):not(.m-menu__item--expanded):not(.m-menu__item--active):hover>.m-menu__heading .m-menu__link-text, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item:not(.m-menu__item--parent):not(.m-menu__item--open):not(.m-menu__item--expanded):not(.m-menu__item--active):hover>.m-menu__link .m-menu__link-text {
+  color: #ffffff;
+  font-weight: 500;
+  font-family: Tajawal;
+}
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item>.m-menu__heading .m-menu__link-text, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item>.m-menu__link .m-menu__link-text {
+  color: #58728e;
+  font-family: Tajawal;
+  font-weight: 500;
+}
+.m-aside-left--minimize .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item.m-menu__item--expanded>.m-menu__link>.m-menu__link-icon, .m-aside-left--minimize .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item.m-menu__item--active>.m-menu__link>.m-menu__link-icon {
+  color: #64c2d1;
+}
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item.m-menu__item--active > .m-menu__heading .m-menu__link-icon, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item.m-menu__item--active > .m-menu__link .m-menu__link-icon {
+  color: #64c2d1;
+}
+.m-aside-menu .m-menu__nav>.m-menu__item>.m-menu__link {
+  padding: 9px 22px;
+}
+.form-control.m-input--solid {
+  background-color: #ffffff;
+  border-color: #d6d6d6;
+  color: #575962;
+  font-family: Tajawal;
+}
+.form-control.m-input--solid:focus {
+  background-color: #ffffff;
+  border-color: #d6d6d6;
+  color: #575962;
+  font-family: Tajawal;
+}
+label {
+  display: inline-block;font-family: Tajawal;
+  font-weight: 500;
+  font-size: 15px;
+}
+.m-dropzone {
+  border: 2px dashed #d1d3d6;
+}
+.m-dropzone .m-dropzone__msg-title {
+  color: #575962;
+  font-family: Tajawal;
+}
+.text-events{
+  font-family: Tajawal;
+  color: #64c2d1;
+  font-weight: 500;
+}
+.dropzone .dz-preview .dz-error-message {
+  display: none !important;
+}
+.form-control[readonly], .form-control {
+  background-color: #ffffff;
+  border-color: #d6d6d6;
+  color: #575962;
+  font-family: Tajawal;
+}
+.form-control[readonly], .form-control:focus {
+  background-color: #ffffff;
+  border-color: #d6d6d6;
+  color: #575962;
+  font-family: Tajawal;
+}
+.btn-save{
+  background: #3179a3;
+  border-radius: 100px;
+  color: #fff !important;
+  font-weight: 600;
+  font-family: tajawal;
+  font-size: 14px;
+}
+.dropdown-menu {
+  right: auto !important;
+}
+.class-from{
+  font-weight: 500;
+  font-family: Tajawal;
+}
