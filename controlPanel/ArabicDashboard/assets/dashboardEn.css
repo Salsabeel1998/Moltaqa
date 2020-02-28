@@ -1,0 +1,45 @@
+.body{
+  font-family: poppins !important;
+}
+.col-form-label {
+  font-size: 12px;
+  line-height: 1.2;
+  font-family: poppins;
+}
+.m-stack.m-stack--desktop.m-stack--ver>.m-stack__item.m-stack__item--fluid {
+  background: linear-gradient(45deg, rgba(61, 179, 197, 0.8) 0%,rgba(61, 179, 197, 0.8) 35%,rgba(39, 70, 133, 0.9) 100%) !important
+}
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item.m-menu__item--active>.m-menu__heading .m-menu__link-text, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item.m-menu__item--active>.m-menu__link .m-menu__link-text {
+  color: #fff;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 11px;
+}
+
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item:not(.m-menu__item--parent):not(.m-menu__item--open):not(.m-menu__item--expanded):not(.m-menu__item--active):hover>.m-menu__heading .m-menu__link-text, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item:not(.m-menu__item--parent):not(.m-menu__item--open):not(.m-menu__item--expanded):not(.m-menu__item--active):hover>.m-menu__link .m-menu__link-text {
+  font-weight: 500;
+  font-family: Poppins;
+}
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item>.m-menu__heading .m-menu__link-text, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item>.m-menu__link .m-menu__link-text {
+  font-size: 11px;
+  font-family: Poppins;
+  font-weight: 500;
+}
+label {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 15px;
+}
+.m-dropzone {
+  border: 2px dashed #d1d3d6;
+}
+.text-events{
+  font-family: Poppins;
+  font-weight: 500;
+}
+.btn-save{
+  font-family: Poppins;
+}
+.class-from{
+  font-family: Poppins;
+}

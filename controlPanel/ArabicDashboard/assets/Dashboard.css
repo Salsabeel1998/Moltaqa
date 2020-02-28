@@ -1,12 +1,102 @@
+
+/*---------------------------------
+		Media 
+----------------------------------*/
+/**** Extra small devices (portrait phones, less than 576px)******/
+@media (max-width: 575px) {
+.logo{
+  max-width: 50%;
+}
+.Exhibtion .card {
+  padding: 0; 
+
+}
+.m-brand.m-brand--skin-dark {
+  background:rgba(61, 179, 197) !important
+}
+  }
+  
+  
+  /**** Small devices (landscape phones, 576px and up)******/
+  @media (min-width: 576px) and (max-width: 767px) {
+    .logo{
+      max-width: 50%;
+    }
+    .Exhibtion .card {
+       padding: 0; 
+
+  }
+  .m-brand.m-brand--skin-dark {
+    background:rgba(61, 179, 197) !important
+  }
+  }
+  /**** Medium devices (tablets, 768px and up)******/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .logo{
+      max-width: 50%;
+    }
+    .Exhibtion .card {
+      padding: 0; 
+
+ }
+ .m-brand.m-brand--skin-dark {
+  background:rgba(61, 179, 197) !important
+}
+  }
+    /*******Large devices (desktops, 992px and up)****/
+  @media (min-width: 992px) and (max-width: 1199px) {
+ 
+  
+    } 
+  
+  @media (max-width: 1200px){
+ 
+  }
+  
+  
+  /****Extra large devices (large desktops, 1200px and up)**/
+  @media (min-width: 1200px) {
+
+  }
+  @media (width: 1200px){
+  
+  }
+  @media (min-width: 1201px) and (max-width: 1345px) {
+
+  }
+  .m-body .m-content{
+    padding: 0px 30px;
+  }
 .m-aside-left.m-aside-left--skin-dark {
   background-color: #ffffff !important;
 
+}
+.m-topbar .m-topbar__nav.m-nav>.m-nav__item.m-topbar__languages.m-dropdown--header-bg-fill.m-dropdown--arrow .m-dropdown__arrow {
+  color: #66a0ce;
+}
+.m-topbar .m-topbar__nav.m-nav>.m-nav__item.m-topbar__user-profile.m-topbar__user-profile--img.m-dropdown--arrow .m-dropdown__arrow {
+  color: #68a2d4;
+}
+.m-card-user.m-card-user--skin-dark .m-card-user__details .m-card-user__name {
+  color: #ffffff;
+}
+.m-card-user.m-card-user--skin-dark .m-card-user__details .m-card-user__email:hover {
+  color: #d1f9ff;
+}
+.m-card-user.m-card-user--skin-dark .m-card-user__details .m-card-user__email {
+  color: #d1f9ff;
+}
+.btn.m-btn--label-brand {
+  color: #69a3d5;
+}
+.m-brand.m-brand--skin-dark .m-brand__tools .m-brand__icon>i {
+  color: #ffffff;
 }
 .m-stack.m-stack--desktop.m-stack--ver>.m-stack__item.m-stack__item--fluid {
   background: linear-gradient(45deg, #5c768d 0%, rgba(39, 70, 133, 0.9) 35%,rgba(61, 179, 197, 0.8) 100%) !important
 }
 .m-brand.m-brand--skin-dark {
-  background:rgba(61, 179, 197, 0.8) !important
+  background:rgba(61, 179, 197,0.8)
 }
 .m-brand.m-brand--skin-dark .m-brand__tools .m-brand__toggler span {
   background-color: #ffffff !important;
@@ -27,24 +117,24 @@
   background: #ffffff;
 }
 .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item:not(.m-menu__item--parent):not(.m-menu__item--open):not(.m-menu__item--expanded):not(.m-menu__item--active):hover {
-  background-color: rgba(61, 179, 197, 0.8) !important;
+  background-color: rgba(230, 230, 230, 0.8) !important;
   transition: background-color 0.3s ease 0s;
 }
 .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item:not(.m-menu__item--parent):not(.m-menu__item--open):not(.m-menu__item--expanded):not(.m-menu__item--active):hover>.m-menu__heading .m-menu__link-text, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item:not(.m-menu__item--parent):not(.m-menu__item--open):not(.m-menu__item--expanded):not(.m-menu__item--active):hover>.m-menu__link .m-menu__link-text {
-  color: #ffffff;
+  color: #64c2d1;
   font-weight: 500;
 }
 .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item:not(.m-menu__item--parent):not(.m-menu__item--open):not(.m-menu__item--expanded):not(.m-menu__item--active):hover > .m-menu__heading .m-menu__link-icon, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item:not(.m-menu__item--parent):not(.m-menu__item--open):not(.m-menu__item--expanded):not(.m-menu__item--active):hover > .m-menu__link .m-menu__link-icon {
-  color: #ffffff;
+  color: #525672;
   font-weight: 500;
 }
 .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item.m-menu__item--active>.m-menu__heading .m-menu__link-text, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item.m-menu__item--active>.m-menu__link .m-menu__link-text {
-  color: #64c2d1;
+  color: #fff;
   font-family: Tajawal;
   font-weight: 500;
 }
 .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item:not(.m-menu__item--parent):not(.m-menu__item--open):not(.m-menu__item--expanded):not(.m-menu__item--active):hover>.m-menu__heading .m-menu__link-text, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item:not(.m-menu__item--parent):not(.m-menu__item--open):not(.m-menu__item--expanded):not(.m-menu__item--active):hover>.m-menu__link .m-menu__link-text {
-  color: #ffffff;
+  color: #525672;
   font-weight: 500;
   font-family: Tajawal;
 }
@@ -57,7 +147,7 @@
   color: #64c2d1;
 }
 .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item.m-menu__item--active > .m-menu__heading .m-menu__link-icon, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item.m-menu__item--active > .m-menu__link .m-menu__link-icon {
-  color: #64c2d1;
+  color: #fff;
 }
 .m-aside-menu .m-menu__nav>.m-menu__item>.m-menu__link {
   padding: 9px 22px;
@@ -120,4 +210,19 @@ label {
 .class-from{
   font-weight: 500;
   font-family: Tajawal;
+}
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item.m-menu__item--active {
+  transition: background-color 0.3s;
+  background-color: #64c2d1;
+}
+.m-dropdown__arrow.m-dropdown__arrow--right.m-dropdown__arrow--adjust{
+  left: 5px !important;
+  right: 5px;
+}
+.m-grid__item.m-footer{
+display: none;
+}
+.m-nav .m-nav__item>.m-nav__link .m-nav__link-title>.m-nav__link-wrap .m-nav__link-text{
+  font-family: tajawal;
+  font-weight: 600;
 }
