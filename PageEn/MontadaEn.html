@@ -8,27 +8,29 @@
   <meta content="" name="description">
 
   <!-- Favicons -->
-  <link href="img/اللوجو.png" rel="icon">
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="../img/اللوجو.png" rel="icon">
+  <link href="../img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
   <!-- Bootstrap CSS File -->
-  <link href="css/vendors.bundle.rtl.css"rel="stylesheet">
-  <link href="css/style.bundle.rtl.css"rel="stylesheet">
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/vendors.bundle.css"rel="stylesheet">
+  <link href="../css/style.bundle.css"rel="stylesheet">
+  <link href="../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/animate/animate.min.css" rel="stylesheet">
-  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+  <link href="../lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="../lib/animate/animate.min.css" rel="stylesheet">
+  <link href="../lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="../lib/lightbox/css/lightbox.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Tajawal&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
   <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
-  <link href="css/Moltaqa.css" rel="stylesheet">
+  <link href="../css/style.css" rel="stylesheet">
+  <link href="../css/Moltaqa.css" rel="stylesheet">
+  <link href="../css/Moltaqa.css" rel="stylesheet">
 
 <style>
   .hr2{
@@ -37,6 +39,15 @@
   #contact {
      box-shadow: none; 
 
+}
+.about .icon-box .icon {
+  float: left !important;
+}
+.about .icon-box .title {
+    margin-left: 89px;
+}
+.about .icon-box .description {
+    margin-left: 89px;
 }
 </style>
   <!-- =======================================================
@@ -53,20 +64,21 @@
   Header
   ============================-->
   <section id="topbar" class="d-none d-lg-block">
+    <div class="social-links float-right pt-2">
+      <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+      <a href="#" class="facebook"><i class="fa fa-facebook-f"></i></a>
+      <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+      <a href="#" class="skype"><i class="fa fa-linkedin"></i></a>
+      <a href="#" class="linkedin"><i class="fa fa-skype"></i></i></a>
+      
+    </div>
     <div class="container clearfix">
-      <div class="col-5 contact-info float-right mt-1">
+      <div class="col-5 contact-info float-left mt-1">
         <form action="" method="post">
-          <input type="submit" value="بحث">
-          <input type="text" name="email" placeholder="... ابحث عن">
+         
+          <input type="text" name="email" placeholder="Search for...">
+          <input type="submit" value="Search">
         </form>
-      </div>
-      <div class="social-links float-left pt-2">
-        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-        <a href="#" class="facebook"><i class="fa fa-facebook-f"></i></a>
-        <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-        <a href="#" class="skype"><i class="fa fa-linkedin"></i></a>
-        <a href="#" class="linkedin"><i class="fa fa-skype"></i></i></a>
-        
       </div>
     </div>
   </section>
@@ -75,49 +87,50 @@
 
 
 
-      <nav class="main-nav float-left d-none d-lg-block">
-        <ul class="text-right">
-          <li class="drop-down"><a href=""class="text-white">	<img class="selected-img" src="controlPanel/ArabicDashboard/assets/app/media/img/flags/008-saudi-arabia.svg"></a>
+      <nav class="main-nav float-right d-none d-lg-block">
+        <ul class="text-left">
+          <li class=""><a href="IndexEn.html" class="text-white">Home page</a></li>
+          <li class="drop-down active"><a href="#"class="text-white">Activities</a>
             <ul>
-              <li><a class="hover-text" href="PageEn/MontadaEn.html">
-                <span class="m-nav__link-icon"><img class="m-topbar__language-img" src="controlPanel/ArabicDashboard/assets/app/media/img/flags/020-flag.svg"></span>
+              <li><a class="hover-text" href="MontadaEn.html"> Main forum</a></li>
+              <li><a class="hover-text" href="ErahdEn.html">Counseling</a></li>
+              <li><a class="hover-text" href="ContestEn.html">Social innovation competition</a></li>
+              <li><a class="hover-text" href="ExhibtionEn.html"> Social Innovations Exhibition</a></li>
+              <li><a class="hover-text" href="ChallengeEn.html"> Empowerment challenge</a></li>
+              <li><a class="hover-text" href="CoursesEn.html"> Custom courses</a></li>
+              <li><a class="hover-text" href="LabsEn.html">Social innovation coefficient</a></li>
+              <li><a class="hover-text" href="#">Innovation Report 2020</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="text-white">My account</a></li>
+          <li><a href="#" class="text-white">Call Us</a></li>
+          <li class="drop-down"><a href=""class="text-white">	<img class="selected-img" src="../controlPanel/ArabicDashboard/assets/app/media/img/flags/020-flag.svg"></a>
+            <ul>
+              <li><a class="hover-text" href="MontadaEn.html">
                 <span class="m-nav__link-title m-topbar__language-text m-nav__link-text pr-2">En</span>
-                
+                <span class="m-nav__link-icon"><img class="m-topbar__language-img" src="../controlPanel/ArabicDashboard/assets/app/media/img/flags/020-flag.svg"></span>
 
               </a></li>
-              <li><a class="hover-text" href="Montada.html">
-                <a href="Montada.html" class="m-nav__link m-nav__link--active">
-                  <span class="m-nav__link-icon"><img class="m-topbar__language-img" src="controlPanel/ArabicDashboard/assets/app/media/img/flags/008-saudi-arabia.svg"></span>
+              <li><a class="hover-text" href="../Montada.html">
+                <a href="../Montada.html" class="m-nav__link m-nav__link--active">
                   <span class="m-nav__link-title m-topbar__language-text m-nav__link-text pr-2">Ar</span>
-                  
+                  <span class="m-nav__link-icon"><img class="m-topbar__language-img" src="../controlPanel/ArabicDashboard/assets/app/media/img/flags/008-saudi-arabia.svg"></span>
 
                 </a>
               </a></li>
             </ul>
           </li>
-          <li><a href="#" class="text-white">اتصل بنا</a></li>
-          <li><a href="#" class="text-white">حسابي</a></li>
-          <li class="drop-down active"><a href=""class="text-white">الأنشطة</a>
-            <ul>
-              <li><a href="Montada.html">المنتدى الرئيسي</a></li>
-              <li><a href="Ershad.html">الإرشاد</a></li>
-              <li><a href="contest.html">منافسة الإبتكار الإجتماعي</a></li>
-              <li><a href="Exhibition.html">معرض الإبتكارات</a></li>
-              <li><a href="challenge.html">تحدي التمكين</a></li>
-              <li><a href="courses.html">الدورات المتخصصة</a></li>
-              <li><a href="labs.html">معامل الإبتكار الإجتماعي</a></li>
-              <li><a href="#">تقرير الإبتكار 2020</a></li>
-            </ul>
-          </li>
+         
+         
 
          
-          <li><a href="index.html" class="text-white">الصفحة الرئيسية</a></li>
+         
         </ul>
       </nav><!-- .main-nav -->
-      <div class="logo float-right">
+      <div class="logo float-left">
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
-        <a href="#intro" ><img src="img/اللوجو.png" alt=""></a>
+        <a href="#intro" ><img src="../img/اللوجو.png" alt=""></a>
       </div>
     </div>
   </header><!-- #header -->
@@ -143,7 +156,7 @@
           <div class="col-12 mt-5">
             <div class="row justify-content-center">
               <div class="col-md-7 text-center hero-text mt-lg-5 wow fadeInDownBig">
-                <h1 class="font-weight color-white" data-aos="fade-up" data-aos-delay="">المنتدى الرئيسي</h1>
+                <h1 class="font-weight color-white" data-aos="fade-up" data-aos-delay=""> Main Forum</h1>
               
               </div>
             </div>
@@ -160,24 +173,25 @@
 
         <div class="row no-gutters">
           <div class="col-lg-6 video-box">
-            <img src="img/montada.jpg" class="img-fluid mt-5 p-3 " alt="">
+            <img src="../img/montada.jpg" class="img-fluid mt-5 p-3 " alt="">
            
           </div>
           <div class="col-lg-6 d-flex flex-column justify-content-center about-content">
             <header class="section-header">
-              <h6>عن المنتدى</h6>
+              <h6>About the Forum</h6>
               <hr class="hr1">
               <hr class="hr2">
-              <p class="mb-0">يقوم الملتقى بعدة أنشطة لبناء ثقافة الإبتكار الإجتماعي و تدريب و تمكين قيادات التنمية</p>
+              <p class="mb-0">
+                The forum undertakes several activities to build a culture of social innovation and to train and empower development leaders              </p>
             </header>
-            <div class="icon-box aos-init aos-animate text-right" data-aos="fade-up" data-aos-delay="100"> 
+            <div class="icon-box aos-init aos-animate text-left" data-aos="fade-up" data-aos-delay="100"> 
               <div class="icon ml-2"><i class="fa fa-gift"></i></div>
               <h4 class="title"><a href="">Lorem Ipsum</a></h4>
               <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate.</p>
               
             </div>
 
-            <div class="icon-box aos-init text-right" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon-box aos-init text-left" data-aos="fade-up" data-aos-delay="100">
               <div class="icon ml-2"><i class="fa fa-hand-o-right"></i></div>
               <h4 class="title"><a href="">Nemo Enim</a></h4>
               <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum. </p>
@@ -206,7 +220,7 @@
       <div class="container">
 
         <header class="section-header">
-          <h6>الفعاليات</h6>
+          <h6>Events</h6>
           <hr class="hr1">
           <hr class="hr2">
         </header>
@@ -226,12 +240,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="img/portfolio/app1.jpg" class="img-fluid" alt="">
+              <img src="../img/portfolio/app1.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">الجلسة الثالثة</a></h4>
+                <h4><a href="#">The third session</a></h4>
                 
                 <div>
-                  <a href="img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="../img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
                   <a href="#" class="link-details" title="More Details"  data-toggle="modal" data-target="#m_modal_42"><i class="ion ion-android-open"></i></a>
                 </div>
               </div>
@@ -240,12 +254,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
             <div class="portfolio-wrap">
-              <img src="img/portfolio/web3.jpg" class="img-fluid" alt="">
+              <img src="../img/portfolio/web3.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">الجلسة الثانية</a></h4>
+                <h4><a href="#">The second session</a></h4>
                 
                 <div>
-                  <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="../img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
                   <a href="#" class="link-details" title="More Details" data-toggle="modal" data-target="#m_modal_41"><i class="ion ion-android-open"></i></a>
                 </div>
               </div>
@@ -254,12 +268,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
-              <img src="img/portfolio/app2.jpg" class="img-fluid" alt="">
+              <img src="../img/portfolio/app2.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">الجلسة الأولى</a></h4>
+                <h4><a href="#"> The first session</a></h4>
                 
                 <div>
-                  <a href="img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="../img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
                   <a href="#" class="link-details" title="More Details" data-toggle="modal" data-target="#m_modal_4"><i class="ion ion-android-open"></i></a>
                 </div>
               </div>
@@ -268,12 +282,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="img/portfolio/card2.jpg" class="img-fluid" alt="">
+              <img src="../img/portfolio/card2.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">الجلسة الرابعة</a></h4>
+                <h4><a href="#"> The fourth session</a></h4>
                 
                 <div>
-                  <a href="img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="../img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
                   <a href="#" class="link-details" title="More Details"  data-toggle="modal" data-target="#m_modal_43"><i class="ion ion-android-open"></i></a>
                 </div>
               </div>
@@ -282,12 +296,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
             <div class="portfolio-wrap">
-              <img src="img/portfolio/web2.jpg" class="img-fluid" alt="">
+              <img src="../img/portfolio/web2.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">الجلسة الخامسة</a></h4>
+                <h4><a href="#"> The fifth session</a></h4>
                
                 <div>
-                  <a href="img/portfolio/web2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 2" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="../img/portfolio/web2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 2" title="Preview"><i class="ion ion-eye"></i></a>
                   <a href="#" class="link-details" title="More Details" data-toggle="modal" data-target="#m_modal_44"><i class="ion ion-android-open"></i></a>
                 </div>
               </div>
@@ -296,12 +310,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
-              <img src="img/portfolio/app3.jpg" class="img-fluid" alt="">
+              <img src="../img/portfolio/app3.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">الجلسة السادسة</a></h4>
+                <h4><a href="#"> The sixth session</a></h4>
                 
                 <div>
-                  <a href="img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="../img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
                   <a href="#" class="link-details" title="More Details" data-toggle="modal" data-target="#m_modal_45"><i class="ion ion-android-open"></i></a>
                 </div>
               </div>
@@ -310,12 +324,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="img/portfolio/card1.jpg" class="img-fluid" alt="">
+              <img src="../img/portfolio/card1.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">الجلسة السابعة</a></h4>
+                <h4><a href="#"> The seventh session</a></h4>
                 
                 <div>
-                  <a href="img/portfolio/card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="../img/portfolio/card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
                   <a href="#" class="link-details" title="More Details" data-toggle="modal" data-target="#m_modal_46"><i class="ion ion-android-open"></i></a>
                 </div>
               </div>
@@ -324,9 +338,9 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card" data-wow-delay="0.1s">
             <div class="portfolio-wrap">
-              <img src="img/portfolio/card3.jpg" class="img-fluid" alt="">
+              <img src="../img/portfolio/card3.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">الجلسة الثامنة</a></h4>
+                <h4><a href="#"> The eighth session</a></h4>
                 
                 <div>
                   <a href="img/portfolio/card3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
@@ -338,12 +352,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
-              <img src="img/portfolio/web1.jpg" class="img-fluid" alt="">
+              <img src="../img/portfolio/web1.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">الجلسة التاسعة</a></h4>
+                <h4><a href="#"> The ninth session</a></h4>
                
                 <div>
-                  <a href="img/portfolio/web1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="../img/portfolio/web1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>
                   <a href="#" class="link-details" title="More Details" data-toggle="modal" data-target="#m_modal_48"><i class="ion ion-android-open"></i></a>
                 </div>
               </div>
@@ -361,7 +375,7 @@
       <div class="container-fluid">
 
         <div class="section-header">
-          <h6>تواصل معنا</h6>
+          <h6> Contact with us</h6>
           <hr class="hr1">
           <hr class="hr2">
         </div>
@@ -375,26 +389,25 @@
             <div class="col-lg-6 d-flex align-items-stretch aos-init aos-animate" data-aos="fade-up">
               <div class="info-box">
                 <i class="fa fa-map-marker"></i>
-                <h3>العنوان</h3>
+                <h3>Address</h3>
                 <p>A108 Adam Street, New York, NY 535022</p>
               </div>
             </div>
-  
             <div class="col-lg-3 d-flex align-items-stretch aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
               <div class="info-box">
                 <i class="fa fa-envelope"></i>
-                <h3>الإيميل</h3>
+                <h3>Email</h3>
                 <p>info@example.com<br>contact@example.com</p>
               </div>
             </div>
-  
             <div class="col-lg-3 d-flex align-items-stretch aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
               <div class="info-box ">
                 <i class="fa fa-phone"></i>
-                <h3>اتصل بنا</h3>
+                <h3> Call Us</h3>
                 <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
               </div>
             </div>
+
             <div class="col-lg-6">
               <div class="php-email-form">
               <div class="map mb-4 mb-lg-0">
@@ -405,23 +418,23 @@
               <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                 <div class="form-row">
                   <div class="col-lg-6 form-group">
-                    <input type="text" name="name" class="form-control text-right" id="name" placeholder="الإسم" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                    <input type="text" name="name" class="form-control text-left" id="name" placeholder="Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
                     <div class="validate"></div>
                   </div>
                   <div class="col-lg-6 form-group">
-                    <input type="email" class="form-control text-right" name="email" id="email" placeholder="الإيميل" data-rule="email" data-msg="Please enter a valid email">
+                    <input type="email" class="form-control text-left" name="email" id="email" placeholder="E-mail" data-rule="email" data-msg="Please enter a valid email">
                     <div class="validate"></div>
                   </div>
                 </div>
                 <div class="form-group">
-                  <input type="text" class="form-control text-right" name="subject" id="subject" placeholder="الموضوع" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
+                  <input type="text" class="form-control text-left" name="subject" id="subject" placeholder="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
                   <div class="validate"></div>
                 </div>
                 <div class="form-group">
-                  <textarea class="form-control text-right" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="الرسالة"></textarea>
+                  <textarea class="form-control text-left" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                   <div class="validate"></div>
                 </div>
-                <div class="text-center"><button type="submit">إرسال رسالة</button></div>
+                <div class="text-center"><button type="submit"> Send message</button></div>
               </form>
             </div>
 
@@ -436,37 +449,34 @@
   <!--==========================
     Footer
   ============================-->
-  <footer id="footer" class="text-right">
+  <footer id="footer" class="text-left">
     <div class="footer-top">
       <div class="container">
         <div class="row">
           <div class="col-lg-4 col-md-6 footer-info">
-            <h4>عن الملتقى</h4>
-            <p>نشر ثقافة الابتكار 
-              الاجتماعي على جميع المستويات المستهدفة وتمكين المبتكرين الاجتماعيين
-             , إبراز الأدوات 
-و المنهجيات المتطورة في المجال والأفكار الإبداعية
-
+            <h4>About the forum </h4>
+            <p>Spreading a culture of social innovation at all target levels and empowering social innovators, highlighting tools
+              And advanced methodologies in the field and creative ideas
               </p>
           </div>
           <div class="col-lg-2 col-md-6 footer-links">
-            <h4>روابط مفيدة</h4>
+            <h4>Useful Links</h4>
             <ul>
-              <li><a href="#">الصفحة الرئيسية</a></li>
-              <li><a href="#">من نحن</a></li>
-              <li><a href="#">خدماتنا</a></li>
-              <li><a href="#">شروط الخدمة</a></li>
-              <li><a href="#">سياسات خاصة</a></li>
+              <li><a href="#">Homepage</a></li>
+              <li><a href="#"> Who are we</a></li>
+              <li><a href="#">Our services</a></li>
+              <li><a href="#">Terms of service</a></li>
+              <li><a href="#">Special policies</a></li>
             </ul>
           </div>
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h4>للتواصل</h4>
+            <h4>To communicate</h4>
             <p>
               A108 Adam Street <br>
-              الرياض, NY 535022<br>
-              السعودية <br>
-               <br> +1 5589 55488 55<strong>: رقم التليفون</strong>
-              <br> info@example.com <strong>: الإيميل</strong>
+              AlRiyad, NY 535022<br>
+              Saudi Arabia <br>
+               <br><strong>Phone no :</strong> +1 5589 55488 55
+              <br><strong>Email : </strong> info@example.com 
             </p>
 
             <div class="social-links">
@@ -479,10 +489,10 @@
 
           </div>
           <div class="col-lg-3 col-md-6 footer-newsletter">
-            <h4>لمتابعة أحداثنا</h4>
-            <p>يمكنك متابعة أحداثنا و آخر الأخبار عبر الإيميل من خلال الإشتراك بخدمة الرسائل</p>
+            <h4>To follow our events</h4>
+            <p>You can follow our events and the latest news via e-mail by subscribing to the messaging service</p>
             <form action="" method="post">
-              <input type="submit"  value="اشتراك"><input type="email" name="email" class="text-right">
+              <input type="email" name="email" class="text-left"><input type="submit"  value="subscribe">
             </form>
           </div>
 
@@ -494,16 +504,11 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>NewBiz</strong>. All Rights Reserved
+        &copy; Copyright <strong>Moltaqa</strong>. All Rights Reserved
       </div>
       <div class="credits">
-        <!--
-          All the links in the footer should remain intact.
-          You can delete the links only if you purchased the pro version.
-          Licensing information: https://bootstrapmade.com/license/
-          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=NewBiz
-        -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+
+       
       </div>
     </div>
   </footer><!-- #footer -->
@@ -515,7 +520,7 @@
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">الجلسة الأولى</h5>
+        <h5 class="modal-title" id="exampleModalLabel"> First Session</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -523,11 +528,10 @@
       <div class="modal-body pb-0">
         
           <div class="row">
-            <div class="col-2 pr-2"><p class="head-title text-right">نبذة تعريفية : </p></div>
+            <div class="col-2"><p class="head-title text-left">biography : </p></div>
             <div class="col-md-10">
-              <p class="text-right">
-                ملتقى سنوي لتحفيز الابتكار الاجتماعي عبر عرض التجارب الدولية والمحلية الرائدة وتحفيز فرص الابتكار الاجتماعي وتنفيذ المعامل والمسرعات لتلبية الاحتياجات المجتمعية وجودة الحيــاة
-            
+              <p class="text-left">
+                Annual forum to stimulate social innovation by showcasing leading international and local experiences, stimulating social innovation opportunities, implementing labs and accelerators to meet societal needs and quality of life            
               </p>
             </div>
            
@@ -535,10 +539,10 @@
           <div class="m-separator m-separator--dashed m-separator--lg"></div>
 
           <div class="row">
-            <div class="col-2 pr-0"><p class="head-title">اسم مدير الجلسة :</p></div>
-            <div class="col-md-10">
-              <p class="text-right">
-                مدير الجلسة
+            <div class="col-3"><p class="head-title">Session manager name  :</p></div>
+            <div class="col-md-9">
+              <p class="text-left">
+                Session manager
             
               </p>
             </div>
@@ -546,7 +550,7 @@
           </div>
           <div class="m-separator m-separator--dashed m-separator--lg"></div>
           <div class="row">
-            <div class="col-4 pr-2"><p class="head-title text-right">ورق العمل المشاركة :</p></div>
+            <div class="col-3"><p class="head-title text-left">Paper titles involved :</p></div>
             <div class="col-md-8">
               <p class="text-right">
       
@@ -591,19 +595,19 @@
           </div>
           <div class="m-separator m-separator--dashed m-separator--lg"></div>
           <div class="row">
-            <div class="col-2 pr-0"><p class="head-title">اسم المتحدثين :</p></div>
-            <div class="col-md-10">
-              <p class="text-right">
-                المتحدث الأول , المتحدث الثاني , المتحدث الثالث
-            
+            <div class="col-3"><p class="head-title">The names of the speakers  :</p></div>
+            <div class="col-md-9">
+              <p class="text-left">
+                 
+            Ahmed, Khalid , Mahmoud
               </p>
             </div>
            
           </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">إغلاق</button>
-        <button type="button" class="btn btn-primary">تسجيل</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">registration</button>
       </div>
     </div>
   </div>
@@ -612,7 +616,7 @@
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">الجلسة الأولى</h5>
+        <h5 class="modal-title" id="exampleModalLabel"> Second Session</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -620,11 +624,10 @@
       <div class="modal-body pb-0">
         
           <div class="row">
-            <div class="col-2 pr-2"><p class="head-title text-right">نبذة تعريفية : </p></div>
+            <div class="col-2"><p class="head-title text-left">biography : </p></div>
             <div class="col-md-10">
-              <p class="text-right">
-                ملتقى سنوي لتحفيز الابتكار الاجتماعي عبر عرض التجارب الدولية والمحلية الرائدة وتحفيز فرص الابتكار الاجتماعي وتنفيذ المعامل والمسرعات لتلبية الاحتياجات المجتمعية وجودة الحيــاة
-            
+              <p class="text-left">
+                Annual forum to stimulate social innovation by showcasing leading international and local experiences, stimulating social innovation opportunities, implementing labs and accelerators to meet societal needs and quality of life            
               </p>
             </div>
            
@@ -632,10 +635,10 @@
           <div class="m-separator m-separator--dashed m-separator--lg"></div>
 
           <div class="row">
-            <div class="col-2 pr-0"><p class="head-title">اسم مدير الجلسة :</p></div>
-            <div class="col-md-10">
-              <p class="text-right">
-                مدير الجلسة
+            <div class="col-3"><p class="head-title">Session manager name  :</p></div>
+            <div class="col-md-9">
+              <p class="text-left">
+                Session manager
             
               </p>
             </div>
@@ -643,7 +646,7 @@
           </div>
           <div class="m-separator m-separator--dashed m-separator--lg"></div>
           <div class="row">
-            <div class="col-4 pr-2"><p class="head-title text-right">ورق العمل المشاركة :</p></div>
+            <div class="col-3"><p class="head-title text-left">Paper titles involved :</p></div>
             <div class="col-md-8">
               <p class="text-right">
       
@@ -688,19 +691,19 @@
           </div>
           <div class="m-separator m-separator--dashed m-separator--lg"></div>
           <div class="row">
-            <div class="col-2 pr-0"><p class="head-title">اسم المتحدثين :</p></div>
-            <div class="col-md-10">
-              <p class="text-right">
-                المتحدث الأول , المتحدث الثاني , المتحدث الثالث
-            
+            <div class="col-3"><p class="head-title">The names of the speakers  :</p></div>
+            <div class="col-md-9">
+              <p class="text-left">
+                 
+            Ahmed, Khalid , Mahmoud
               </p>
             </div>
            
           </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">إغلاق</button>
-        <button type="button" class="btn btn-primary">تسجيل</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">registration</button>
       </div>
     </div>
   </div>
@@ -709,7 +712,7 @@
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">الجلسة الأولى</h5>
+        <h5 class="modal-title" id="exampleModalLabel"> Third Session</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -717,11 +720,10 @@
       <div class="modal-body pb-0">
         
           <div class="row">
-            <div class="col-2 pr-2"><p class="head-title text-right">نبذة تعريفية : </p></div>
+            <div class="col-2"><p class="head-title text-left">biography : </p></div>
             <div class="col-md-10">
-              <p class="text-right">
-                ملتقى سنوي لتحفيز الابتكار الاجتماعي عبر عرض التجارب الدولية والمحلية الرائدة وتحفيز فرص الابتكار الاجتماعي وتنفيذ المعامل والمسرعات لتلبية الاحتياجات المجتمعية وجودة الحيــاة
-            
+              <p class="text-left">
+                Annual forum to stimulate social innovation by showcasing leading international and local experiences, stimulating social innovation opportunities, implementing labs and accelerators to meet societal needs and quality of life            
               </p>
             </div>
            
@@ -729,10 +731,10 @@
           <div class="m-separator m-separator--dashed m-separator--lg"></div>
 
           <div class="row">
-            <div class="col-2 pr-0"><p class="head-title">اسم مدير الجلسة :</p></div>
-            <div class="col-md-10">
-              <p class="text-right">
-                مدير الجلسة
+            <div class="col-3"><p class="head-title">Session manager name  :</p></div>
+            <div class="col-md-9">
+              <p class="text-left">
+                Session manager
             
               </p>
             </div>
@@ -740,7 +742,7 @@
           </div>
           <div class="m-separator m-separator--dashed m-separator--lg"></div>
           <div class="row">
-            <div class="col-4 pr-2"><p class="head-title text-right">ورق العمل المشاركة :</p></div>
+            <div class="col-3"><p class="head-title text-left">Paper titles involved :</p></div>
             <div class="col-md-8">
               <p class="text-right">
       
@@ -785,19 +787,19 @@
           </div>
           <div class="m-separator m-separator--dashed m-separator--lg"></div>
           <div class="row">
-            <div class="col-2 pr-0"><p class="head-title">اسم المتحدثين :</p></div>
-            <div class="col-md-10">
-              <p class="text-right">
-                المتحدث الأول , المتحدث الثاني , المتحدث الثالث
-            
+            <div class="col-3"><p class="head-title">The names of the speakers  :</p></div>
+            <div class="col-md-9">
+              <p class="text-left">
+                 
+            Ahmed, Khalid , Mahmoud
               </p>
             </div>
            
           </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">إغلاق</button>
-        <button type="button" class="btn btn-primary">تسجيل</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">registration</button>
       </div>
     </div>
   </div>
@@ -806,7 +808,7 @@
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">الجلسة الأولى</h5>
+        <h5 class="modal-title" id="exampleModalLabel"> Fourth Session</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -814,11 +816,10 @@
       <div class="modal-body pb-0">
         
           <div class="row">
-            <div class="col-2 pr-2"><p class="head-title text-right">نبذة تعريفية : </p></div>
+            <div class="col-2"><p class="head-title text-left">biography : </p></div>
             <div class="col-md-10">
-              <p class="text-right">
-                ملتقى سنوي لتحفيز الابتكار الاجتماعي عبر عرض التجارب الدولية والمحلية الرائدة وتحفيز فرص الابتكار الاجتماعي وتنفيذ المعامل والمسرعات لتلبية الاحتياجات المجتمعية وجودة الحيــاة
-            
+              <p class="text-left">
+                Annual forum to stimulate social innovation by showcasing leading international and local experiences, stimulating social innovation opportunities, implementing labs and accelerators to meet societal needs and quality of life            
               </p>
             </div>
            
@@ -826,10 +827,10 @@
           <div class="m-separator m-separator--dashed m-separator--lg"></div>
 
           <div class="row">
-            <div class="col-2 pr-0"><p class="head-title">اسم مدير الجلسة :</p></div>
-            <div class="col-md-10">
-              <p class="text-right">
-                مدير الجلسة
+            <div class="col-3"><p class="head-title">Session manager name  :</p></div>
+            <div class="col-md-9">
+              <p class="text-left">
+                Session manager
             
               </p>
             </div>
@@ -837,7 +838,7 @@
           </div>
           <div class="m-separator m-separator--dashed m-separator--lg"></div>
           <div class="row">
-            <div class="col-4 pr-2"><p class="head-title text-right">ورق العمل المشاركة :</p></div>
+            <div class="col-3"><p class="head-title text-left">Paper titles involved :</p></div>
             <div class="col-md-8">
               <p class="text-right">
       
@@ -882,19 +883,19 @@
           </div>
           <div class="m-separator m-separator--dashed m-separator--lg"></div>
           <div class="row">
-            <div class="col-2 pr-0"><p class="head-title">اسم المتحدثين :</p></div>
-            <div class="col-md-10">
-              <p class="text-right">
-                المتحدث الأول , المتحدث الثاني , المتحدث الثالث
-            
+            <div class="col-3"><p class="head-title">The names of the speakers  :</p></div>
+            <div class="col-md-9">
+              <p class="text-left">
+                 
+            Ahmed, Khalid , Mahmoud
               </p>
             </div>
            
           </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">إغلاق</button>
-        <button type="button" class="btn btn-primary">تسجيل</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">registration</button>
       </div>
     </div>
   </div>
@@ -903,7 +904,7 @@
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">الجلسة الأولى</h5>
+        <h5 class="modal-title" id="exampleModalLabel"> Fifth Session</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -911,11 +912,10 @@
       <div class="modal-body pb-0">
         
           <div class="row">
-            <div class="col-2 pr-2"><p class="head-title text-right">نبذة تعريفية : </p></div>
+            <div class="col-2"><p class="head-title text-left">biography : </p></div>
             <div class="col-md-10">
-              <p class="text-right">
-                ملتقى سنوي لتحفيز الابتكار الاجتماعي عبر عرض التجارب الدولية والمحلية الرائدة وتحفيز فرص الابتكار الاجتماعي وتنفيذ المعامل والمسرعات لتلبية الاحتياجات المجتمعية وجودة الحيــاة
-            
+              <p class="text-left">
+                Annual forum to stimulate social innovation by showcasing leading international and local experiences, stimulating social innovation opportunities, implementing labs and accelerators to meet societal needs and quality of life            
               </p>
             </div>
            
@@ -923,10 +923,10 @@
           <div class="m-separator m-separator--dashed m-separator--lg"></div>
 
           <div class="row">
-            <div class="col-2 pr-0"><p class="head-title">اسم مدير الجلسة :</p></div>
-            <div class="col-md-10">
-              <p class="text-right">
-                مدير الجلسة
+            <div class="col-3"><p class="head-title">Session manager name  :</p></div>
+            <div class="col-md-9">
+              <p class="text-left">
+                Session manager
             
               </p>
             </div>
@@ -934,7 +934,7 @@
           </div>
           <div class="m-separator m-separator--dashed m-separator--lg"></div>
           <div class="row">
-            <div class="col-4 pr-2"><p class="head-title text-right">ورق العمل المشاركة :</p></div>
+            <div class="col-3"><p class="head-title text-left">Paper titles involved :</p></div>
             <div class="col-md-8">
               <p class="text-right">
       
@@ -979,19 +979,19 @@
           </div>
           <div class="m-separator m-separator--dashed m-separator--lg"></div>
           <div class="row">
-            <div class="col-2 pr-0"><p class="head-title">اسم المتحدثين :</p></div>
-            <div class="col-md-10">
-              <p class="text-right">
-                المتحدث الأول , المتحدث الثاني , المتحدث الثالث
-            
+            <div class="col-3"><p class="head-title">The names of the speakers  :</p></div>
+            <div class="col-md-9">
+              <p class="text-left">
+                 
+            Ahmed, Khalid , Mahmoud
               </p>
             </div>
            
           </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">إغلاق</button>
-        <button type="button" class="btn btn-primary">تسجيل</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">registration</button>
       </div>
     </div>
   </div>
@@ -1000,7 +1000,7 @@
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">الجلسة الأولى</h5>
+        <h5 class="modal-title" id="exampleModalLabel"> Sixth Session</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -1008,11 +1008,10 @@
       <div class="modal-body pb-0">
         
           <div class="row">
-            <div class="col-2 pr-2"><p class="head-title text-right">نبذة تعريفية : </p></div>
+            <div class="col-2"><p class="head-title text-left">biography : </p></div>
             <div class="col-md-10">
-              <p class="text-right">
-                ملتقى سنوي لتحفيز الابتكار الاجتماعي عبر عرض التجارب الدولية والمحلية الرائدة وتحفيز فرص الابتكار الاجتماعي وتنفيذ المعامل والمسرعات لتلبية الاحتياجات المجتمعية وجودة الحيــاة
-            
+              <p class="text-left">
+                Annual forum to stimulate social innovation by showcasing leading international and local experiences, stimulating social innovation opportunities, implementing labs and accelerators to meet societal needs and quality of life            
               </p>
             </div>
            
@@ -1020,10 +1019,10 @@
           <div class="m-separator m-separator--dashed m-separator--lg"></div>
 
           <div class="row">
-            <div class="col-2 pr-0"><p class="head-title">اسم مدير الجلسة :</p></div>
-            <div class="col-md-10">
-              <p class="text-right">
-                مدير الجلسة
+            <div class="col-3"><p class="head-title">Session manager name  :</p></div>
+            <div class="col-md-9">
+              <p class="text-left">
+                Session manager
             
               </p>
             </div>
@@ -1031,7 +1030,7 @@
           </div>
           <div class="m-separator m-separator--dashed m-separator--lg"></div>
           <div class="row">
-            <div class="col-4 pr-2"><p class="head-title text-right">ورق العمل المشاركة :</p></div>
+            <div class="col-3"><p class="head-title text-left">Paper titles involved :</p></div>
             <div class="col-md-8">
               <p class="text-right">
       
@@ -1076,19 +1075,19 @@
           </div>
           <div class="m-separator m-separator--dashed m-separator--lg"></div>
           <div class="row">
-            <div class="col-2 pr-0"><p class="head-title">اسم المتحدثين :</p></div>
-            <div class="col-md-10">
-              <p class="text-right">
-                المتحدث الأول , المتحدث الثاني , المتحدث الثالث
-            
+            <div class="col-3"><p class="head-title">The names of the speakers  :</p></div>
+            <div class="col-md-9">
+              <p class="text-left">
+                 
+            Ahmed, Khalid , Mahmoud
               </p>
             </div>
            
           </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">إغلاق</button>
-        <button type="button" class="btn btn-primary">تسجيل</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">registration</button>
       </div>
     </div>
   </div>
@@ -1097,7 +1096,7 @@
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">الجلسة الأولى</h5>
+        <h5 class="modal-title" id="exampleModalLabel"> Seventh Session</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -1105,11 +1104,10 @@
       <div class="modal-body pb-0">
         
           <div class="row">
-            <div class="col-2 pr-2"><p class="head-title text-right">نبذة تعريفية : </p></div>
+            <div class="col-2"><p class="head-title text-left">biography : </p></div>
             <div class="col-md-10">
-              <p class="text-right">
-                ملتقى سنوي لتحفيز الابتكار الاجتماعي عبر عرض التجارب الدولية والمحلية الرائدة وتحفيز فرص الابتكار الاجتماعي وتنفيذ المعامل والمسرعات لتلبية الاحتياجات المجتمعية وجودة الحيــاة
-            
+              <p class="text-left">
+                Annual forum to stimulate social innovation by showcasing leading international and local experiences, stimulating social innovation opportunities, implementing labs and accelerators to meet societal needs and quality of life            
               </p>
             </div>
            
@@ -1117,10 +1115,10 @@
           <div class="m-separator m-separator--dashed m-separator--lg"></div>
 
           <div class="row">
-            <div class="col-2 pr-0"><p class="head-title">اسم مدير الجلسة :</p></div>
-            <div class="col-md-10">
-              <p class="text-right">
-                مدير الجلسة
+            <div class="col-3"><p class="head-title">Session manager name  :</p></div>
+            <div class="col-md-9">
+              <p class="text-left">
+                Session manager
             
               </p>
             </div>
@@ -1128,7 +1126,7 @@
           </div>
           <div class="m-separator m-separator--dashed m-separator--lg"></div>
           <div class="row">
-            <div class="col-4 pr-2"><p class="head-title text-right">ورق العمل المشاركة :</p></div>
+            <div class="col-3"><p class="head-title text-left">Paper titles involved :</p></div>
             <div class="col-md-8">
               <p class="text-right">
       
@@ -1173,19 +1171,19 @@
           </div>
           <div class="m-separator m-separator--dashed m-separator--lg"></div>
           <div class="row">
-            <div class="col-2 pr-0"><p class="head-title">اسم المتحدثين :</p></div>
-            <div class="col-md-10">
-              <p class="text-right">
-                المتحدث الأول , المتحدث الثاني , المتحدث الثالث
-            
+            <div class="col-3"><p class="head-title">The names of the speakers  :</p></div>
+            <div class="col-md-9">
+              <p class="text-left">
+                 
+            Ahmed, Khalid , Mahmoud
               </p>
             </div>
            
           </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">إغلاق</button>
-        <button type="button" class="btn btn-primary">تسجيل</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">registration</button>
       </div>
     </div>
   </div>
@@ -1194,7 +1192,7 @@
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">الجلسة الأولى</h5>
+        <h5 class="modal-title" id="exampleModalLabel"> Eighth Session</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -1202,11 +1200,10 @@
       <div class="modal-body pb-0">
         
           <div class="row">
-            <div class="col-2 pr-2"><p class="head-title text-right">نبذة تعريفية : </p></div>
+            <div class="col-2"><p class="head-title text-left">biography : </p></div>
             <div class="col-md-10">
-              <p class="text-right">
-                ملتقى سنوي لتحفيز الابتكار الاجتماعي عبر عرض التجارب الدولية والمحلية الرائدة وتحفيز فرص الابتكار الاجتماعي وتنفيذ المعامل والمسرعات لتلبية الاحتياجات المجتمعية وجودة الحيــاة
-            
+              <p class="text-left">
+                Annual forum to stimulate social innovation by showcasing leading international and local experiences, stimulating social innovation opportunities, implementing labs and accelerators to meet societal needs and quality of life            
               </p>
             </div>
            
@@ -1214,10 +1211,10 @@
           <div class="m-separator m-separator--dashed m-separator--lg"></div>
 
           <div class="row">
-            <div class="col-2 pr-0"><p class="head-title">اسم مدير الجلسة :</p></div>
-            <div class="col-md-10">
-              <p class="text-right">
-                مدير الجلسة
+            <div class="col-3"><p class="head-title">Session manager name  :</p></div>
+            <div class="col-md-9">
+              <p class="text-left">
+                Session manager
             
               </p>
             </div>
@@ -1225,7 +1222,7 @@
           </div>
           <div class="m-separator m-separator--dashed m-separator--lg"></div>
           <div class="row">
-            <div class="col-4 pr-2"><p class="head-title text-right">ورق العمل المشاركة :</p></div>
+            <div class="col-3"><p class="head-title text-left">Paper titles involved :</p></div>
             <div class="col-md-8">
               <p class="text-right">
       
@@ -1270,19 +1267,19 @@
           </div>
           <div class="m-separator m-separator--dashed m-separator--lg"></div>
           <div class="row">
-            <div class="col-2 pr-0"><p class="head-title">اسم المتحدثين :</p></div>
-            <div class="col-md-10">
-              <p class="text-right">
-                المتحدث الأول , المتحدث الثاني , المتحدث الثالث
-            
+            <div class="col-3"><p class="head-title">The names of the speakers  :</p></div>
+            <div class="col-md-9">
+              <p class="text-left">
+                 
+            Ahmed, Khalid , Mahmoud
               </p>
             </div>
            
           </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">إغلاق</button>
-        <button type="button" class="btn btn-primary">تسجيل</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">registration</button>
       </div>
     </div>
   </div>
@@ -1291,7 +1288,7 @@
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">الجلسة الأولى</h5>
+        <h5 class="modal-title" id="exampleModalLabel"> Ninth Session</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -1299,11 +1296,10 @@
       <div class="modal-body pb-0">
         
           <div class="row">
-            <div class="col-2 pr-2"><p class="head-title text-right">نبذة تعريفية : </p></div>
+            <div class="col-2"><p class="head-title text-left">biography : </p></div>
             <div class="col-md-10">
-              <p class="text-right">
-                ملتقى سنوي لتحفيز الابتكار الاجتماعي عبر عرض التجارب الدولية والمحلية الرائدة وتحفيز فرص الابتكار الاجتماعي وتنفيذ المعامل والمسرعات لتلبية الاحتياجات المجتمعية وجودة الحيــاة
-            
+              <p class="text-left">
+                Annual forum to stimulate social innovation by showcasing leading international and local experiences, stimulating social innovation opportunities, implementing labs and accelerators to meet societal needs and quality of life            
               </p>
             </div>
            
@@ -1311,10 +1307,10 @@
           <div class="m-separator m-separator--dashed m-separator--lg"></div>
 
           <div class="row">
-            <div class="col-2 pr-0"><p class="head-title">اسم مدير الجلسة :</p></div>
-            <div class="col-md-10">
-              <p class="text-right">
-                مدير الجلسة
+            <div class="col-3"><p class="head-title">Session manager name  :</p></div>
+            <div class="col-md-9">
+              <p class="text-left">
+                Session manager
             
               </p>
             </div>
@@ -1322,7 +1318,7 @@
           </div>
           <div class="m-separator m-separator--dashed m-separator--lg"></div>
           <div class="row">
-            <div class="col-4 pr-2"><p class="head-title text-right">ورق العمل المشاركة :</p></div>
+            <div class="col-3"><p class="head-title text-left">Paper titles involved :</p></div>
             <div class="col-md-8">
               <p class="text-right">
       
@@ -1367,19 +1363,19 @@
           </div>
           <div class="m-separator m-separator--dashed m-separator--lg"></div>
           <div class="row">
-            <div class="col-2 pr-0"><p class="head-title">اسم المتحدثين :</p></div>
-            <div class="col-md-10">
-              <p class="text-right">
-                المتحدث الأول , المتحدث الثاني , المتحدث الثالث
-            
+            <div class="col-3"><p class="head-title">The names of the speakers  :</p></div>
+            <div class="col-md-9">
+              <p class="text-left">
+                 
+            Ahmed, Khalid , Mahmoud
               </p>
             </div>
            
           </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">إغلاق</button>
-        <button type="button" class="btn btn-primary">تسجيل</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">registration</button>
       </div>
     </div>
   </div>
@@ -1397,24 +1393,24 @@
   <!-- <div id="preloader"></div> -->
 
   <!-- JavaScript Libraries -->
-  <script src="js/vendors.bundle.js"></script>
-  <script src="js/scripts.bundle.js"></script>
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/mobile-nav/mobile-nav.js"></script>
-  <script src="lib/wow/wow.min.js"></script>
-  <script src="lib/waypoints/waypoints.min.js"></script>
-  <script src="lib/counterup/counterup.min.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/isotope/isotope.pkgd.min.js"></script>
-  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="../js/vendors.bundle.js"></script>
+  <script src="../js/scripts.bundle.js"></script>
+  <script src="../lib/jquery/jquery.min.js"></script>
+  <script src="../lib/jquery/jquery-migrate.min.js"></script>
+  <script src="../lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../lib/easing/easing.min.js"></script>
+  <script src="../lib/mobile-nav/mobile-nav.js"></script>
+  <script src="../lib/wow/wow.min.js"></script>
+  <script src="../lib/waypoints/waypoints.min.js"></script>
+  <script src="../lib/counterup/counterup.min.js"></script>
+  <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="../lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="../lib/lightbox/js/lightbox.min.js"></script>
   <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
-<script src="lib/animate/aos.js"></script>
+  <script src="../contactform/contactform.js"></script>
+<script src="../lib/animate/aos.js"></script>
   <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
+  <script src="../js/main.js"></script>
 
 </body>
 </html>

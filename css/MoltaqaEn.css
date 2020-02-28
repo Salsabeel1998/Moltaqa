@@ -1,0 +1,15 @@
+
+.main-nav a{
+  font-family: Poppins !important;
+  font-size: 13px;
+}
+.main-nav a:hover, .main-nav .active > a, .main-nav li:hover > a {
+  font-weight: 500;
+}
+
+#about .about-container .icon-box .icon {
+  float: left;
+}
+.about .icon-box .icon {
+  float: left !important;
+}
