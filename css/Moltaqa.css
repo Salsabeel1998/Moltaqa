@@ -607,7 +607,7 @@ b, strong {
   font-family: Tajawal;
 }
 .modal .description {
-  font-size: 15px;
+  font-size: 14px;
   line-height: 28px;
   margin-bottom: 0;
 }
@@ -791,6 +791,7 @@ b, strong {
 }
 .challenge .title a {
   color: #111;
+  font-family: Tajawal;
 }
 .challenge .description {
   font-size: 15px;
