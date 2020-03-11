@@ -1000,3 +1000,21 @@ b, strong {
   color: #6f727d;
   font-weight: 400;
 }
+.profile-page{
+  width: 100%;
+}
+.section-shaped .shape-style-1.shape-primary {
+  background: linear-gradient(to right, rgba(39, 70, 133, 0.8) 0%, rgba(61, 179, 197, 0.8) 100%);
+}
+.text-name{
+  font-family: tajawal;
+  font-weight: bold;
+  font-size: 22px;
+}
+.text-Profile1{
+  color: darkcyan;
+  font-weight: 600;
+}
+.text-Profile2{
+font-size: 14px;
+}
